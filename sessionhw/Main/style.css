@@ -1,0 +1,83 @@
+html{
+    height:100%;
+    margin:0;
+}
+body {
+    margin: 0;
+    background-color: wheat;
+    height:100%
+}
+a {
+    color: #639a67 !important;
+    text-decoration: none;
+}
+h1 {
+    font-size: 45px;
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    border-bottom: 3px solid green;
+    background-color: green;
+    margin: 0;
+    padding: 20px;
+}
+ol {
+    border-right: 3px solid blue;
+    width: 100px;
+    margin: 0;
+    padding: 20px;
+}
+#grid {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    min-height:100%;
+}
+#grid ul {
+    margin:0;
+}
+#article {
+    padding-left:25px;
+}
+h2 {
+    color: green;
+    font-family: 'Abril Fatface', cursive;
+}
+#title {
+    color: wheat;
+}
+
+.nav-pills li.active a, .nav-pills li.active a:focus, .nav-pills li.active a:hover{
+    background-color: wheat !important;
+    color: black !important;
+}
+
+.nav{
+    display:block !important;
+}
+
+#diary{
+    border: 2px solid wheat;
+    margin-right: 100px;
+    margin-bottom:10px;
+    padding:10px;
+}
+
+summary{
+    font-weight: bold;
+}
+
+details p{
+    margin-top:5px;
+    display:inline-block;
+}
+
+#changeColor{
+    border: 3px solid wheat;
+    background-color: rgba(0,0,0,0.2);
+    color:wheat;
+    padding:5px 10px;
+    border-radius:20%;
+}
+#changeColor:hover{
+    background-color:wheat;
+    color:black;
+}
